@@ -10,7 +10,8 @@ public class HelloWorld {
 
     private static final String TAG = "Hello World";
 
-    public static void Hello(String message){
+    public static void Hello(){
+        String message = null;
         Log.d(TAG, message);
     }
 }
