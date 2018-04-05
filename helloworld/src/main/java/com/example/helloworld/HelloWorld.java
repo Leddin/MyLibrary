@@ -12,6 +12,7 @@ public class HelloWorld {
 
     public static void Hello(){
         String message = null;
+    public static void Hello(String message){
         Log.d(TAG, message);
     }
 }
