@@ -16,7 +16,7 @@ public class HelloWorld {
         Log.d(TAG, message);
     }
 
-    public static void shortToast(Context ctx, String string){
+    public static void ShortToast(Context ctx, String string){
         Toast.makeText(ctx, string, Toast.LENGTH_SHORT).show();
 
     }
