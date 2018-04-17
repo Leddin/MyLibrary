@@ -18,6 +18,11 @@ public class HelloWorld {
 
     public static void ShortToast(Context ctx, String string){
         Toast.makeText(ctx, string, Toast.LENGTH_SHORT).show();
-
     }
+
+    public static int plus(int a, int b){
+        return a+b;
+    }
+
+
 }
